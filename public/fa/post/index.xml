@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on بهمن اجدری</title>
+    <link>https://bahmanajdari.netlify.app/fa/post/</link>
+    <description>Recent content in Posts on بهمن اجدری</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 16 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://bahmanajdari.netlify.app/fa/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>آشنایی با R</title>
+      <link>https://bahmanajdari.netlify.app/fa/post/2020-11-16-%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C-%D8%A8%D8%A7-r/</link>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bahmanajdari.netlify.app/fa/post/2020-11-16-%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C-%D8%A8%D8%A7-r/</guid>
+      <description>R یک زبان برنامه‌نویسی است. تحلیل‌گران از این زبان برای تحلیل داده‌هاو بسیاری موارد دیگر استفاده می‌کنند. شاید تابحال اسامی نرم‌افزارهای SPSS یا اکسل را شنیده باشد و چیزی که باید متوجه باشد این است که R مانند آن‌ها نیست. R یک زبان برنامه‌نویسی و در مقیاس وسیع‌تر یک محیط است که برای پردازش داده،مدل سازی و مصور سازی استفاده می‌شود. البته توانایی‌های R به همین‌جا ختم نمی‌شود. برای نمونه، همین وب‌سایت که شما در حال مشاهده آن هستید با استفاده از زبان R ایجاد شده است.</description>
+    </item>
+    
+    <item>
+      <title>پست جدید۲</title>
+      <link>https://bahmanajdari.netlify.app/fa/post/2020-11-16-%D9%BE%D8%B3%D8%AA-%D8%AC%D8%AF%DB%8C%D8%AF%DB%B2/</link>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://bahmanajdari.netlify.app/fa/post/2020-11-16-%D9%BE%D8%B3%D8%AA-%D8%AC%D8%AF%DB%8C%D8%AF%DB%B2/</guid>
+      <description>sghk نستیمنستیب کسمیبنتا نمتیس لبمکنیبر مکنبتلتنیسب . مسشرد مس</description>
+    </item>
+    
+  </channel>
+</rss>
