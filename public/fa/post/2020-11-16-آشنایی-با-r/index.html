@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="fa">
+
+    <meta name="author" content="بهمن اجدری">
+    <meta name="description" content="R یک زبان برنامه‌نویسی است. تحلیل‌گران از این زبان برای تحلیل داده‌هاو بسیاری موارد دیگر استفاده می‌کنند. شاید تابحال اسامی نرم‌افزارهای SPSS یا اکسل را شنیده باشد و چیزی که باید متوجه باشد این است که R مانند آن‌ها نیست. R یک زبان برنامه‌نویسی و در مقیاس وسیع‌تر یک محیط است که برای پردازش داده،مدل سازی و مصور سازی استفاده می‌شود. البته توانایی‌های R به همین‌جا ختم نمی‌شود. برای نمونه، همین وب‌سایت که شما در حال مشاهده آن هستید با استفاده از زبان R ایجاد شده است.">
+    <meta name="keywords" content="برنامه نویسی،تحلیل داده">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="آشنایی با R"/>
+<meta name="twitter:description" content="R یک زبان برنامه‌نویسی است. تحلیل‌گران از این زبان برای تحلیل داده‌هاو بسیاری موارد دیگر استفاده می‌کنند. شاید تابحال اسامی نرم‌افزارهای SPSS یا اکسل را شنیده باشد و چیزی که باید متوجه باشد این است که R مانند آن‌ها نیست. R یک زبان برنامه‌نویسی و در مقیاس وسیع‌تر یک محیط است که برای پردازش داده،مدل سازی و مصور سازی استفاده می‌شود. البته توانایی‌های R به همین‌جا ختم نمی‌شود. برای نمونه، همین وب‌سایت که شما در حال مشاهده آن هستید با استفاده از زبان R ایجاد شده است."/>
+
+    <meta property="og:title" content="آشنایی با R" />
+<meta property="og:description" content="R یک زبان برنامه‌نویسی است. تحلیل‌گران از این زبان برای تحلیل داده‌هاو بسیاری موارد دیگر استفاده می‌کنند. شاید تابحال اسامی نرم‌افزارهای SPSS یا اکسل را شنیده باشد و چیزی که باید متوجه باشد این است که R مانند آن‌ها نیست. R یک زبان برنامه‌نویسی و در مقیاس وسیع‌تر یک محیط است که برای پردازش داده،مدل سازی و مصور سازی استفاده می‌شود. البته توانایی‌های R به همین‌جا ختم نمی‌شود. برای نمونه، همین وب‌سایت که شما در حال مشاهده آن هستید با استفاده از زبان R ایجاد شده است." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://bahmanajdari.netlify.app/fa/post/2020-11-16-%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C-%D8%A8%D8%A7-r/" />
+<meta property="article:published_time" content="2020-11-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-11-16T00:00:00+00:00" /><meta property="og:site_name" content="بهمن اجدری" />
+
+
+    <title>
+  آشنایی با R · بهمن اجدری
+</title>
+
+    
+      <link rel="canonical" href="https://bahmanajdari.netlify.app/fa/post/2020-11-16-%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C-%D8%A8%D8%A7-r/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css" integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.f01c647a0d25b40da992a37c3376291185eed8a50ced8c26cc2c0bcfe38c97df.css" integrity="sha256-8Bxkeg0ltA2pkqN8M3YpEYXu2KUM7YwmzCwLz&#43;OMl98=" crossorigin="anonymous" media="screen" />
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-rtl.min.53a38dc0b13401dabe1614c38bdd06d6d37c7957d2b0b3da816339ce8ee88861.css" integrity="sha256-U6ONwLE0Adq&#43;FhTDi90G1tN8eVfSsLPagWM5zo7oiGE=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.126ad3988d46bdae6217a11105b53c9662bca05f39d42d3c0fb366919d334620.css" integrity="sha256-EmrTmI1Gva5iF6ERBbU8lmK8oF851C08D7NmkZ0zRiA=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+      <link rel="stylesheet" href="/css/custom.css" />
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    
+      <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+    
+
+    <meta name="generator" content="Hugo 0.78.1" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto rtl"
+        onload=" twemoji.parse(document.body); "
+  >
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/fa">
+      بهمن اجدری
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/fa/about/">درباره من</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/fa/post/">وبلاگ</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/fa/contact/">تماس با من</a>
+            </li>
+          
+        
+        
+          
+          
+          
+            
+              
+                <li class="navigation-item menu-separator">
+                  <span>|</span>
+                </li>
+                
+              
+              <li class="navigation-item">
+                <a href="https://bahmanajdari.netlify.app/">English</a>
+              </li>
+            
+          
+            
+          
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>آشنایی با R</h1>
+    </header>
+
+    <p>R یک زبان برنامه‌نویسی است. تحلیل‌گران از این زبان برای تحلیل داده‌هاو بسیاری موارد دیگر استفاده می‌کنند. شاید تابحال اسامی نرم‌افزارهای SPSS یا اکسل را شنیده باشد و چیزی که باید متوجه باشد این است که R مانند آن‌ها نیست. R یک زبان برنامه‌نویسی و در مقیاس وسیع‌تر یک محیط است که برای پردازش داده،مدل سازی و مصور سازی استفاده می‌شود. البته توانایی‌های R به همین‌جا ختم نمی‌شود. برای نمونه، همین وب‌سایت که شما در حال مشاهده آن هستید با استفاده از زبان R ایجاد شده است.
+زبان R ابتدا در میان پژوهشگران دانشگاهی بسیار متداول بود اما پس از رشد فزاینده علوم داده این زبان بسیار توسعه پیدا کرده و هم‌اکنون در کنار زبان‌هایی مانند پایتون و جولیا از ابزارهای اصلی متخصصان علوم داده محسوب می‌شود.
+زبان R این قابلیت را دارد که متخصصان امکانات مخصوص به خود را با ایجاد کتاب‌خانه‌های متنوع به آن اضافه کنند. برای مثال متخصصان علوم زیستی، علوم جغرافیایی و سنجش از دور، بازاریابی، پردازش تصویر و صدا، هوش مصنوعی، اقتصاد، روانشناسی و بسیاری از علوم دیگر در حال استفاده روزمره از آن هستند.</p>
+<h3 id="چرا-باید-r-یاد-بگیریم"><strong>چرا باید R یاد بگیریم؟</strong></h3>
+<p>دلایل فراوانی وجود دارد که یاد گرفتن R را به یک الزام تبدیل کرده است. این زبان انتخاب اول متخصصان علوم آماری است که روش‌های جدید برای تحلیل داده‌ها را ابداع می‌کند و بنابراین این روش‌ها ابتدا تنها در R قابلیت پیاده‌سازی دارد. از طرفی R  درحال تبدیل شدن به اولین انتخاب در محیط‌های دانشگاهی است و یادگرفتن آن بسیار آسان است.
+این زبان به آسانی امکان دریافت داده‌ها را از منابع مختلف مانند پایگاه‌های داده مبتنی بر SQL را به کاربران می‌دهد. همچنین با استفاده از این زبان می‌توانید داده‌ها را بصورت زیبایی مصور کنید و داستان داده را به راحتی بیان کنید. امکانات وسیع این محیط به شما این امکان را می‌دهد که عمده زمان خود را صرف تحلیل داده‌ها کنید و پیچیده‌ترین تحلیل‌ها را به راحتی و تنها با نوشتن چند خط کد آن‌ها را بوجود آورید.
+دلیل دیگر استفاده از R جامعه کاربران آن است. کاربران این زبان برنامه‌نویسی تمایل فراوانی دارند تا دیگران را کمک کنند. در بسیاری از شبکه‌های اجتماعی کافی است سؤال خود را مطرح کنید و پاسخ خود را دریافت کنید. R زبان برنامه‌نویسی رایگان است و صدها منبع آموزشی رایگان نیز برای آن موجود است.</p>
+<h3 id="از-کجا-r-را-دریافت-کنیم"><strong>از کجا R را دریافت کنیم؟</strong></h3>
+<p><img src="/images/Rlogo.png" alt="image textt"></p>
+<p>زبان برنامه‌نویسی R قابلیت استفاده در تمام سیستم‌عامل‌های عمده از جمله یونیکس، ویندوز و MacOs را دارد. <a href="https://www.r-project.org">وب‌سایت رسمی</a> نسخه متناسب با سیستم عامل ها را به رایگان در اختیار کاربران می‌گذارد. کافی است قدم‌های ذکر شده در وبسایت را طی کنید. به دنیای R خوش آمدید!</p>
+<h3 id="از-کجا-باید-شروع-کرد"><strong>از کجا باید شروع کرد؟</strong></h3>
+<p>یکی از متداول‌ترین روش‌ها برای کدنویسی در میان برنامه نویسان استفاده از یک رابط کاربری مناسب یا همان IDE است. این رابط کاربری امکانات مناسبی را در اختیار برنامه‌نویسان قرار میدهد که تجربه بهتری از کار داشته باشند. برای زبان R از نرم افزارهای متفاوتی می‌توان استفاده کرد از جمله Visual Code محصول شرکت مایکروسافت اما در حقیقت بهترین رابط کاربری برای زبان R نرم‌افزار <a href="https://rstudio.com/products/rstudio/">Rstudio</a> است. این IDE به شما امکان می‌دهد تمام ابعاد و قدرت R را در دست بگیرید. Rstudio نیز همانند R  یک نرم‌افزار رایگان و متن باز است که براحتی می‌توان آن را در تمام پلتفرم‌ها نصب کرد.</p>
+<p><img src="/images/logo.svg" alt="Rstudio"></p>
+
+  </article>
+</section>
+
+  
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>وبلاگ آموزشی تحلیل داده</p>
+      
+      
+        ©
+        
+          2019 -
+        
+        2020
+         بهمن اجدری 
+      
+      
+         · 
+        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+      
+      
+        
+      
+    </section>
+  </footer>
+
+
+    </main>
+
+    
+      
+        
+        <script src="/js/dark-mode.min.0213e1773e6d1c5a644f847c67a6f8abac49a3776e2976f6008038af8c5b76a1.js"></script>
+      
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

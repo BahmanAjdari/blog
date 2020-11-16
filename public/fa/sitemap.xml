@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://bahmanajdari.netlify.app/fa/categories/</loc>
+    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bahmanajdari.netlify.app/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://bahmanajdari.netlify.app/fa/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bahmanajdari.netlify.app/fa/post/</loc>
+    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bahmanajdari.netlify.app/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://bahmanajdari.netlify.app/fa/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bahmanajdari.netlify.app/fa/categories/r/</loc>
+    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bahmanajdari.netlify.app/categories/r/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://bahmanajdari.netlify.app/fa/categories/r/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bahmanajdari.netlify.app/fa/post/2020-11-16-%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C-%D8%A8%D8%A7-r/</loc>
+    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bahmanajdari.netlify.app/fa/</loc>
+    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bahmanajdari.netlify.app/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://bahmanajdari.netlify.app/fa/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bahmanajdari.netlify.app/fa/post/2020-11-16-%D9%BE%D8%B3%D8%AA-%D8%AC%D8%AF%DB%8C%D8%AF%DB%B2/</loc>
+    <lastmod>2020-11-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bahmanajdari.netlify.app/fa/authors/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bahmanajdari.netlify.app/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://bahmanajdari.netlify.app/fa/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bahmanajdari.netlify.app/fa/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bahmanajdari.netlify.app/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://bahmanajdari.netlify.app/fa/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bahmanajdari.netlify.app/fa/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bahmanajdari.netlify.app/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://bahmanajdari.netlify.app/fa/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bahmanajdari.netlify.app/fa/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bahmanajdari.netlify.app/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://bahmanajdari.netlify.app/fa/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://bahmanajdari.netlify.app/fa/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bahmanajdari.netlify.app/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://bahmanajdari.netlify.app/fa/about/"
+                />
+  </url>
+  
+</urlset>
