@@ -52,7 +52,7 @@ disqusShortname = "yourdiscussshortname"
     enableTwemoji = true
 
     # Custom CSS
-    customCSS = []
+    #customCSS = ["css/global.css"]
 
     # Custom SCSS
     customSCSS = []
@@ -129,11 +129,11 @@ disqusShortname = "yourdiscussshortname"
         languageName = "فارسی"
         #contentDir = "content/fa"
         title = "بهمن اجدری"
-        customCSS = ["css/custom.css"]
+        #customCSS = ["css/custom.css"]
         [languages.fa.params]
             author = "بهمن اجدری"
             info = "تحلیل داده کسب و کار و مصور سازی داده"
-            description = ""
+            description = "تحلیل داده کسب و کار"
             keywords = "برنامه نویسی،تحلیل داده"
             footerContent = "وبلاگ آموزشی تحلیل داده"
             rtl = true
